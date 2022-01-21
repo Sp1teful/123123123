@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+
+}
+
+body, html {
+  width:100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Trebuchet MS, Helvetica;
+}
+
+#top {
+  width: 100%;
+  background-image: url(https://memepedia.ru/wp-content/uploads/2020/10/screenshot_10-3.png);
+  background-blend-mode: multiply;
+  background-color: #e3f3ff;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  line-height: 1.1;
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 2.6em;
+    height: 1000px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+  #top {
+    font-size: 1.9em;
+    height: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  #top {
+    font-size: 1.1em;
+    padding-top: 50%;
+    height: 500px;
+    padding-left: 19%;
+  }
+}
+
+@media (max-width: 450px) {
+  #top {
+    font-size: 1.2em;
+  }
+}
+
+#top h1 {
+  padding-top: 20%;
+  padding-left: 76%;
+  font-size: 80px;
+  color: #941616c4;
+}
+
+#top h3 {
+    font-size: 80px;
+  padding-left: 76%;
+  color: #000000;
+}
+
+#overview {
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid silver;
+    color: #fff;
+    padding-top: 35px;
+    float:left;
+    background-image: url(https://on-desktop.com/ru/images/wp.php?path=/wps/Backgrounds_Digital_background_of_neon_stripes_097229_.jpg&wp=17); 
+    background-blend-mode: multiply;
+    background-color: #4f1c75;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  #overview .img {
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 40px;
+  }
+  
+  #overview .img:nth-child(odd) {
+    margin-left: 18%;
+  }
+  
+  #overview img {
+    background: #fafafa;
+    padding: 5px;
+    border: 2px solid silver;
+    float: left;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  #overview span {
+    float: left;
+    width: 100%;
+    font-size: 1.3em;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #85c8c2;
+  }
+  
+  @media (max-width: 700px) {
+    #overview .img {
+      width: 80%!important;
+      margin-right: 0!important;
+      margin-left: 10%!important;
+    }
+  }
+  
+  #main {
+    padding: 100px;
+    float: left;
+    background-color: #dcf9ff;
+    border-top: 2px solid silver;
+    color: #484848;
+    font-size: 1.3em;
+  }
+
+#main div {
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+  }
+
+#main span {
+    color: #a0a0a0;
+}
+
+
+#main h4 {
+    font-size: 3em;
+    padding-left: 3%;
+}
+
+#main h5 {
+    float: right;
+    font-size: 2em;
+    padding-left: 15%;
+}
